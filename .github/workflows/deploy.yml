@@ -79,7 +79,7 @@ jobs:
         #   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with:
           # bucket: gh-actions-s3-mxtw
-          bucket: gh-mxtw-hosting
+          bucket: gh-mstw-hosting
           dist-folder: ./dist
       - name: Output information
         run: |
